@@ -1,0 +1,14 @@
+{
+    "sounds/tower34.wav":[1, 0, 0],
+    "sounds/tower36.wav":[1, 0, 0],
+	"sounds/attack_music4.mp3":[0.1,1,3,["sounds/attack_music4.mp3","sounds/attack_music4_01.mp3","sounds/attack_music4_02.mp3","sounds/attack_music4_03.mp3"]],
+	"sounds/attack_music100.wav":[0.1,1,3],
+	"sounds/attack_music300.mp3":[0.2,1,5,["sounds/attack_music300.mp3","sounds/attack_music300_01.mp3","sounds/attack_music300_02.mp3","sounds/attack_music300_03.mp3","sounds/attack_music300_04.mp3"]],
+	"sounds/3005_01.mp3":[0.1, 1, 3,["sounds/3005_01.mp3","sounds/3005_02.mp3","sounds/3005_03.mp3"]],
+	"sounds/4005_01.mp3":[0.1, 1, 3,["sounds/4005_01.mp3","sounds/4005_02.mp3","sounds/4005_03.mp3"]],
+	"sounds/8011_01.mp3":[0.1, 1, 3,["sounds/8011_01.mp3","sounds/8011_02.mp3","sounds/8011_03.mp3"]],
+	"sounds/8021_01.mp3":[0.1, 1, 3,["sounds/8021_01.mp3","sounds/8021_02.mp3","sounds/8021_03.mp3"]],
+	"sounds/8031_01.mp3":[0.1, 1, 3,["sounds/8031_01.mp3","sounds/8031_02.mp3","sounds/8031_03.mp3"]],
+	"sounds/8051_01.mp3":[0.1, 1, 3,["sounds/8051_01.mp3","sounds/8051_02.mp3","sounds/8051_03.mp3"]],
+	"sounds/shot_coin_01.mp3":[0.1, 1, 8,["sounds/shot_coin_01.mp3","sounds/shot_coin_02.mp3","sounds/shot_coin_03.mp3","sounds/shot_coin_04.mp3"]]
+}

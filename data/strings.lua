@@ -1,0 +1,7 @@
+Entry("tmSec","秒")
+Entry("tmMin","分")
+Entry("tmHr","小时")
+Entry("tmDay","天")
+Entry("tmSplit","")
+Entry("btnYes","确定")
+Entry("btnCancel","取消")

@@ -1,0 +1,130 @@
+{
+    "createrConfig": true, "type": "dialog", "sx": 1116, "sy": 656, "anchor": "Center", "x": 960.0, "y": 540.0,
+    "views":
+    [
+        {
+            "createrConfig": true, "type": "image", "sx": 1116, "sy": 656, "anchor": "Center", "x": 558.0, "y": 328.0,
+            "image": "images/bg/cm_bg_second_3.png"
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 204.8, "sy": 40, "anchor": "Center", "x": 558.0, "y": 620.0,
+            "color": [0, 0, 0],
+            "font": 2, "size": 40, "text": "Layout展示"
+        },
+        {
+            "createrConfig": true, "type": "button", "id": "buttonTest", "sx": 248, "sy": 90, "anchor": "Center", "x": 208.0, "y": 526.0,
+            "actionType": 1,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 124.0, "y": 43.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "node", "sx": 181.23, "sy": 100, "anchor": "Center", "x": 124.0, "y": 35.0,
+                    "layout": {"padding": 0, "ltype": 1, "dirx": 0, "resize": 1, "ox": 10},
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "label", "id": "label_test", "sx": 111.23, "sy": 40, "anchor": "Center", "x": 55.615, "y": 62.0,
+                            "font": 6, "size": 40, "text": "99999"
+                        },
+                        {
+                            "createrConfig": true, "type": "image", "id": "icon_test", "sx": 60, "sy": 60, "anchor": "Center", "x": 151.23, "y": 60.0,
+                            "image": "images/sprites/cm_icon_cash.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "image", "sx": 300, "sy": 400, "anchor": "Center", "x": 205.0, "y": 256.0,
+            "image": "images/sprites/panel_uboss_back.png", "s9edge": 60
+        },
+        {
+            "createrConfig": true, "type": "node", "id": "layout2", "sx": 300, "sy": 200, "anchor": "Top", "x": 203.0, "y": 452.0,
+            "layout": {"padding": 20, "ltype": 2, "diry": 1, "oy": 30, "resize": 0},
+            "lazyViews":
+            [
+                {
+                    "createrConfig": true, "type": "label", "sx": 102.48, "sy": 40, "anchor": "Center", "x": 150.0, "y": 160,
+                    "color": [0, 0, 0],
+                    "font": 2, "size": 40, "text": "内容1"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 180.3, "sy": 30, "anchor": "Left", "x": 28.0, "y": 95,
+                    "color": [0, 0, 0],
+                    "font": 2, "size": 30, "text": "内容2：XXXX"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 240, "sy": 90, "anchor": "Left", "x": 28.0, "y": 5,
+                    "color": [0, 0, 0],
+                    "font": 2, "size": 30, "text": "多打几行文字试试换行的功能好用不好用我ledge去 ", "overflow": 3
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "node", "id": "layout3", "sx": 700, "sy": 500, "anchor": "Center", "x": 714.0, "y": 306.0,
+            "layout": {"ltype": 3, "isX": false, "diry": 1, "dirx": 0, "csize": [200, 200], "padding": 10, "oy": 30, "ox": 30, "resize": 0},
+            "lazyViews":
+            [
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 200, "anchor": "Center", "x": 110.0, "y": 390.0,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "id": "label_test", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "font": 6, "size": 40, "text": "Label1"
+                        }
+                    ]
+                },
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 200, "anchor": "Center", "x": 340.0, "y": 390.0,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "font": 6, "size": 40, "text": "Label2"
+                        }
+                    ]
+                },
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 200, "anchor": "Center", "x": 570.0, "y": 390.0,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "font": 6, "size": 40, "text": "Label3"
+                        }
+                    ]
+                },
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 200, "anchor": "Center", "x": 110.0, "y": 160.0,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "font": 6, "size": 40, "text": "Label4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

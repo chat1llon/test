@@ -1,0 +1,135 @@
+{
+    "createrConfig": true, "type": "dialog", "sx": 1116, "sy": 656, "anchor": "Center", "x": 960.0, "y": 540.0,
+    "views":
+    [
+        {
+            "createrConfig": true, "type": "image", "sx": 1116, "sy": 656, "anchor": "Center", "x": 558.0, "y": 328.0,
+            "image": "images/bg/cm_bg_second_3.png"
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 205.12, "sy": 40, "anchor": "Center", "x": 558.0, "y": 620.0,
+            "color": [0, 0, 0],
+            "font": 2, "size": 40, "text": "Button展示"
+        },
+        {
+            "createrConfig": true, "type": "button", "sx": 248, "sy": 82, "anchor": "Center", "x": 212.0, "y": 524.0,
+            "actionType": 1,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 124.0, "y": 39.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 248, "sy": 82, "anchor": "Center", "x": 124.0, "y": 41.0,
+                    "font": 6, "size": 40, "text": "按钮1", "overflow": 2
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "button", "sx": 408, "sy": 110, "anchor": "Center", "x": 810.0, "y": 522.0,
+            "actionType": 1,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 204.0, "y": 53.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 248, "sy": 82, "anchor": "Center", "x": 204.0, "y": 55.0,
+                    "font": 6, "size": 40, "text": "范围扩大按钮", "overflow": 2
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "button", "sx": 248, "sy": 82, "anchor": "Center", "x": 210.0, "y": 382.0,
+            "actionType": 1,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 124.0, "y": 39.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 248, "sy": 82, "anchor": "Center", "x": 124.0, "y": 41.0,
+                    "font": 6, "size": 40, "text": "效果1", "overflow": 2
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "button", "sx": 248, "sy": 82, "anchor": "Center", "x": 531.0, "y": 380.0,
+            "actionType": 2,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 124.0, "y": 39.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 248, "sy": 82, "anchor": "Center", "x": 124.0, "y": 41.0,
+                    "font": 6, "size": 40, "text": "效果2", "overflow": 2
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "button", "sx": 248, "sy": 82, "anchor": "Center", "x": 858.0, "y": 378.0,
+            "actionType": 3,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 124.0, "y": 39.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 248, "sy": 82, "anchor": "Center", "x": 124.0, "y": 41.0,
+                    "font": 6, "size": 40, "text": "效果3", "overflow": 2
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "button", "sx": 408, "sy": 200, "anchor": "Center", "x": 279.0, "y": 204.0,
+            "actionType": 1, "pri": -1,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 204.0, "y": 98.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 248, "sy": 82, "anchor": "Center", "x": 204.0, "y": 100.0,
+                    "font": 6, "size": 40, "text": "范围扩大按钮", "overflow": 2
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "button", "sx": 408, "sy": 200, "anchor": "Center", "x": 563.0, "y": 204.0,
+            "actionType": 1, "pri": -3,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 204.0, "y": 98.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 248, "sy": 82, "anchor": "Center", "x": 204.0, "y": 100.0,
+                    "font": 6, "size": 40, "text": "范围扩大按钮", "overflow": 2
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "button", "sx": 408, "sy": 200, "anchor": "Center", "x": 858.0, "y": 204.0,
+            "actionType": 1, "pri": -2,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 204.0, "y": 98.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 248, "sy": 82, "anchor": "Center", "x": 204.0, "y": 100.0,
+                    "font": 6, "size": 40, "text": "范围扩大按钮", "overflow": 2
+                }
+            ]
+        }
+    ]
+}

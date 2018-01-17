@@ -1,0 +1,123 @@
+{
+    "createrConfig": true, "type": "dialog", "sx": 1116, "sy": 656, "anchor": "Center", "x": 960.0, "y": 540.0,
+    "views":
+    [
+        {
+            "createrConfig": true, "type": "image", "sx": 1116, "sy": 656, "anchor": "Center", "x": 558.0, "y": 328.0,
+            "image": "images/bg/cm_bg_second_3.png"
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 179.96, "sy": 40, "anchor": "Center", "x": 558.0, "y": 620.0,
+            "color": [0, 0, 0],
+            "font": 2, "size": 40, "text": "Scroll展示"
+        },
+        {
+            "createrConfig": true, "type": "scroll", "id": "scrollview", "sx": 1000, "sy": 300, "anchor": "Center", "x": 558.0, "y": 408.0,
+            "scroll": {"inertial": true, "isX": false, "elastic": true},
+            "layout": {"ltype": 3, "isX": false, "diry": 1, "dirx": 0, "csize": [200, 200], "padding": 10, "oy": 30, "ox": 30, "resize": 1},
+            "lazyViews":
+            [
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 200, "anchor": "Center", "x": 110, "y": 110,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "id": "label_test", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "font": 6, "size": 40, "text": "Label1"
+                        }
+                    ]
+                },
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 200, "anchor": "Center", "x": 340, "y": 110,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "font": 6, "size": 40, "text": "Label2"
+                        }
+                    ]
+                },
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 200, "anchor": "Center", "x": 570, "y": 110,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "font": 6, "size": 40, "text": "Label3"
+                        }
+                    ]
+                },
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 200, "anchor": "Center", "x": 800, "y": 110,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 100.0,
+                            "font": 6, "size": 40, "text": "Label4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "scroll", "id": "scrollview2", "sx": 1000, "sy": 100, "anchor": "Center", "x": 558.0, "y": 185.0,
+            "scroll": {"inertial": false, "isX": true, "elastic": true},
+            "layout": {"padding": 10, "ltype": 1, "dirx": 0, "resize": 1, "ox": 30},
+            "lazyViews":
+            [
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 50, "anchor": "Center", "x": 110, "y": 65,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 200, "sy": 50, "anchor": "Center", "x": 100.0, "y": 25.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "id": "label_test", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 25.0,
+                            "font": 6, "size": 40, "text": "Label1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "scroll", "id": "scrollview3", "sx": 1000, "sy": 100, "anchor": "Center", "x": 558.0, "y": 85.0,
+            "scroll": {"inertial": true, "isX": true, "elastic": false},
+            "layout": {"padding": 10, "ltype": 1, "dirx": 0, "resize": 1, "ox": 30},
+            "lazyViews":
+            [
+                {
+                    "createrConfig": true, "type": "node", "sx": 200, "sy": 50, "anchor": "Center", "x": 110, "y": 65,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 200, "sy": 50, "anchor": "Center", "x": 100.0, "y": 25.0,
+                            "image": "images/sprites/panel_uboss_back.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "id": "label_test", "sx": 120.12, "sy": 40, "anchor": "Center", "x": 100.0, "y": 25.0,
+                            "font": 6, "size": 40, "text": "Label1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

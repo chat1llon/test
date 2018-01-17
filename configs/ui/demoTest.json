@@ -1,0 +1,295 @@
+{
+    "createrConfig": true, "type": "dialog", "sx": 1920, "sy": 1080, "anchor": "Center", "x": 960.0, "y": 720.0,
+    "views":
+    [
+        {
+            "createrConfig": true, "type": "image", "id": "back", "sx": 1920, "sy": 1440, "anchor": "Center", "x": 960.0, "y": 540.0,
+            "image": "images/bg/bg_heroLottory.png"
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 810, "sy": 1080, "anchor": "Left", "x": 1010.0, "y": 540.0,
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 810, "sy": 800, "anchor": "Left", "x": 0, "y": 590.0,
+                    "image": "images/sprites/panel_uboss_back.png", "s9edge": 60
+                },
+                {
+                    "createrConfig": true, "type": "button", "id": "button_sell", "sx": 308, "sy": 94, "anchor": "Center", "x": 405, "y": 80.0,
+                    "actionType": 1,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 308, "sy": 94, "anchor": "Center", "x": 154.0, "y": 47.0,
+                            "image": "images/sprites/cm_btn_ok.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "node", "sx": 0, "sy": 0, "anchor": "Center", "x": 154.0, "y": 47.0,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "label", "sx": 120, "sy": 60, "anchor": "Center", "x": 0.0, "y": 0.0,
+                                    "font": 5, "size": 50, "text": "卖出", "valign": 0, "lineHeight": 60, "overflow": 1, "outlineColor": [235, 20, 72, 255]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "createrConfig": true, "type": "scroll", "id": "scroll", "sx": 720, "sy": 720, "anchor": "Center", "x": 405, "y": 590.0,
+                    "scroll": {"inertial": true, "isX": false, "elastic": true},
+                    "layout": {"ltype": 3, "isX": false, "diry": 1, "dirx": 0, "csize": [160, 155], "padding": 0, "oy": 25, "ox": 25, "resize": 1},
+                    "lazyViews":
+                    [
+                        {
+                            "createrConfig": true, "type": "button", "sx": 160, "sy": 155, "anchor": "Center", "x": 80.0, "y": 102.5,
+                            "scaleX": 0.8, "scaleY": 0.8,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 80.0, "y": 77.5,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "id": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 80.0, "y": 77.5,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "id": "num", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 80.0, "y": -2.5,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "id": "tick", "sx": 162, "sy": 145, "anchor": "Center", "x": 80.0, "y": 77.5,
+                                    "image": "images/sprites/dialogItemYes.png"
+                                }
+                            ]
+                        },
+                        {
+                            "createrConfig": true, "type": "button", "sx": 160, "sy": 155, "anchor": "Center", "x": 265.0, "y": 102.5,
+                            "scaleX": 0.8, "scaleY": 0.8,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 80.0, "y": 77.5,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 80.0, "y": 77.5,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 80.0, "y": -2.5,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                }
+                            ]
+                        },
+                        {
+                            "createrConfig": true, "type": "button", "sx": 160, "sy": 155, "anchor": "Center", "x": 450.0, "y": 102.5,
+                            "scaleX": 0.8, "scaleY": 0.8,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 80.0, "y": 77.5,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 80.0, "y": 77.5,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 80.0, "y": -2.5,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                }
+                            ]
+                        },
+                        {
+                            "createrConfig": true, "type": "button", "sx": 160, "sy": 155, "anchor": "Center", "x": 635.0, "y": 102.5,
+                            "scaleX": 0.8, "scaleY": 0.8,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 80.0, "y": 77.5,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 80.0, "y": 77.5,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 80.0, "y": -2.5,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 810, "sy": 1080, "anchor": "Left", "x": 100.0, "y": 540.0,
+            "widget": {"ay": 1.0, "oy": -540.0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 810, "sy": 800, "anchor": "Left", "x": 0, "y": 590.0,
+                    "image": "images/sprites/panel_uboss_back.png", "s9edge": 60
+                },
+                {
+                    "createrConfig": true, "type": "node", "id": "list", "sx": 810, "sy": 260, "anchor": "Center", "x": 405, "y": 699.0,
+                    "layout": {"ltype": 3, "isX": false, "diry": 1, "dirx": 0, "csize": [270, 260], "padding": 0, "oy": 0, "ox": 0, "resize": 2},
+                    "lazyViews":
+                    [
+                        {
+                            "createrConfig": true, "type": "button", "id": "cell", "sx": 270, "sy": 260, "anchor": "Center", "x": 135.0, "y": 130.0,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "id": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "id": "num", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 135.0, "y": 50.0,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                }
+                            ]
+                        },
+                        {
+                            "createrConfig": true, "type": "button", "sx": 270, "sy": 260, "anchor": "Center", "x": 405.0, "y": 130.0,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 135.0, "y": 50.0,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                }
+                            ]
+                        },
+                        {
+                            "createrConfig": true, "type": "button", "sx": 270, "sy": 260, "anchor": "Center", "x": 675.0, "y": 130.0,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 135.0, "y": 50.0,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                }
+                            ]
+                        },
+                        {
+                            "createrConfig": true, "type": "button", "sx": 270, "sy": 260, "anchor": "Center", "x": 135.0, "y": -130.0,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 135.0, "y": 50.0,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                }
+                            ]
+                        },
+                        {
+                            "createrConfig": true, "type": "button", "sx": 270, "sy": 260, "anchor": "Center", "x": 405.0, "y": -130.0,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 135.0, "y": 50.0,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                }
+                            ]
+                        },
+                        {
+                            "createrConfig": true, "type": "button", "sx": 270, "sy": 260, "anchor": "Center", "x": 675.0, "y": -130.0,
+                            "actionType": 1,
+                            "views":
+                            [
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 201, "sy": 195, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/panel_uboss_back.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": 135.0, "y": 130.0,
+                                    "image": "images/sprites/cm_icon_cash.png"
+                                },
+                                {
+                                    "createrConfig": true, "type": "label", "sx": 0, "sy": 50, "anchor": "LeftBottom", "x": 135.0, "y": 50.0,
+                                    "font": 6, "size": 45, "align": 0, "valign": 0, "lineHeight": 50
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "createrConfig": true, "type": "node", "sx": 0, "sy": 0, "anchor": "Center", "x": 405, "y": 890.0,
+                    "widget": {"ay": 1.0, "ax": 0.5, "oy": -190.0, "ox": 0.0},
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 102, "sy": 101, "anchor": "Center", "x": -80.0, "y": 0.0,
+                            "image": "images/sprites/cm_icon_cash.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "id": "totalCoin", "sx": 39.34, "sy": 70, "anchor": "Center", "x": 80.0, "y": 0.0,
+                            "font": 2, "size": 70, "text": "0"
+                        }
+                    ]
+                },
+                {
+                    "createrConfig": true, "type": "button", "id": "button_refresh", "sx": 308, "sy": 94, "anchor": "Center", "x": 405, "y": 80.0,
+                    "actionType": 1,
+                    "views":
+                    [
+                        {
+                            "createrConfig": true, "type": "image", "sx": 308, "sy": 94, "anchor": "Center", "x": 154.0, "y": 47.0,
+                            "image": "images/sprites/cm_btn_ok.png"
+                        },
+                        {
+                            "createrConfig": true, "type": "label", "sx": 120, "sy": 60, "anchor": "Center", "x": 154.0, "y": 47.0,
+                            "font": 6, "size": 50, "text": "刷新", "valign": 0, "lineHeight": 60, "overflow": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

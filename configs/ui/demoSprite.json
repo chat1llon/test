@@ -1,0 +1,31 @@
+{
+    "createrConfig": true, "type": "dialog", "sx": 1920, "sy": 1080, "anchor": "Center", "x": 960.0, "y": 540.0,
+    "views":
+    [
+        {
+            "createrConfig": true, "type": "image", "sx": 1920, "sy": 1080, "anchor": "Center", "x": 960.0, "y": 540.0,
+            "image": "images/bg/cm_bg_second_3.png"
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 187.8, "sy": 40, "anchor": "Center", "x": 960.0, "y":1020.0,
+            "color": [0, 0, 0],
+            "font": 2, "size": 40, "text": "Lua Print Test"
+        },
+        {
+            "createrConfig": true, "type": "button", "id": "btn_close", "sx": 248, "sy": 94, "anchor": "Center",
+            "actionType": 1,
+            "widget": {"ay": 0.0, "ax": 1.0, "oy": 88.0, "ox": -186.0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 248, "sy": 94, "anchor": "Center", "x": 124.0, "y": 47.0,
+                    "image": "images/sprites/cm_btn_ok.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 80, "sy": 40, "anchor": "Center", "x": 124.0, "y": 47.0,
+                    "font": 6, "size": 40, "text": "关闭"
+                }
+            ]
+        }
+    ]
+}

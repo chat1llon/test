@@ -1,0 +1,34 @@
+{
+    "lanfix":{"TW":"HK","GB":"US","default":"US"},
+    "languages":{
+        "CN":[1, "fonts/Font2.ttf","Font2","汉语"],
+        "AU":[2, "fonts/Font2.ttf","Font2","AU"],
+        "BX":[3, "fonts/Font2.ttf","Font2","BX"],
+        "DM":[4, "fonts/Font2.ttf","Font2","DM"],
+        "DEG":[5, "fonts/Font2.ttf","Font2","DEG"],
+        "ELS":[6, "fonts/Font2.ttf","Font2","ELS"],
+        "FAG":[7, "fonts/Font2.ttf","Font2","FAG"],
+        "FLB":[8, "fonts/Font2.ttf","Font2","FLB"],
+        "FEL":[9, "fonts/Font2.ttf","Font2","FEL"],
+        "HG":[10, "fonts/Font2.ttf","Font2","HG"],
+        "HEL":[11, "fonts/Font2.ttf","Font2","HEL"],
+        "JND":[12, "fonts/Font2.ttf","Font2","JND"],
+        "US":[13, "fonts/Font2.ttf","Font2","US"],
+        "LUE":[14, "fonts/Font2.ttf","Font2","LUE"],
+        "JAN":[15, "fonts/Font2.ttf","Font2","JAN"],
+        "RID":[16, "fonts/Font2.ttf","Font2","RID"],
+        "TAG":[17, "fonts/Font2.ttf","Font2","TAG"],
+        "TUE":[18, "fonts/Font2.ttf","Font2","TUE"],
+        "XIB":[19, "fonts/Font2.ttf","Font2","XIB"],
+        "XIN":[20, "fonts/Font2.ttf","Font2","XIN"],
+        "XIJ":[21, "fonts/Font2.ttf","Font2","XIJ"],
+        "YID":[22, "fonts/Font2.ttf","Font2","YID"],
+        "BOL":[23, "fonts/Font2.ttf","Font2","BOL"],
+        "YIN":[24, "fonts/Font2.ttf","Font2","YIN"],
+        "EN":[25, "fonts/Font2.ttf","Font2","EN"]
+
+
+    },
+    "lanfix2":{"ZH_CN":"CN","ZH_TW":"HK","ZH_HK":"HK","EN_US":"US","EN_GB":"US","default":"US"},
+    "lversion":1
+}

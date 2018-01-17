@@ -1,0 +1,199 @@
+{
+    "createrConfig": true, "type": "dialog", "sx": 1116, "sy": 656, "anchor": "Center", "x": 960.0, "y": 540.0,
+    "views":
+    [
+        {
+            "createrConfig": true, "type": "image", "sx": 1116, "sy": 656, "anchor": "Center", "x": 558.0, "y": 328.0,
+            "image": "images/bg/cm_bg_second_3.png"
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 177.87, "sy": 40, "anchor": "Center", "x": 558.0, "y": 620.0,
+            "color": [0, 0, 0],
+            "font": 6, "size": 40, "text": "Label展示"
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 300, "sy": 150, "anchor": "Center", "x": 235.0, "y": 482.0,
+            "color": [0, 0, 0],
+            "font": 6, "size": 40, "text": "Line Height对比Line Height对比Line Height对比", "lineHeight": 50, "overflow": 3
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 300, "sy": 120, "anchor": "Center", "x": 796.0, "y": 492.0,
+            "color": [0, 0, 0],
+            "font": 6, "size": 40, "text": "Line Height对比Line Height对比Line Height对比", "overflow": 3
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 260.06, "sy": 100, "anchor": "Center", "x": 234.0, "y": 376.0,
+            "layout": {"padding": 0, "ltype": 1, "dirx": 0, "resize": 1, "ox": 0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 20.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 180.06, "sy": 40, "anchor": "Center", "x": 130.03, "y": 50.0,
+                    "color": [0, 0, 0],
+                    "font": 6, "size": 40, "text": "Overflow0"
+                },
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 240.06, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 451.23, "sy": 100, "anchor": "Center", "x": 814.0, "y": 376.0,
+            "layout": {"padding": 0, "ltype": 1, "dirx": 0, "resize": 1, "ox": 0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 20.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 371.23, "sy": 40, "anchor": "Center", "x": 225.615, "y": 52.0,
+                    "color": [0, 0, 0],
+                    "font": 6, "size": 40, "text": "Overflow0 Overflow0"
+                },
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 431.23, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 330, "sy": 100, "anchor": "Center", "x": 236.0, "y": 316.0,
+            "layout": {"padding": 0, "ltype": 1, "dirx": 0, "resize": 1, "ox": 0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 20.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 250, "sy": 40, "anchor": "Center", "x": 165.0, "y": 50.0,
+                    "color": [0, 0, 0],
+                    "font": 6, "size": 40, "text": "Overflow1", "overflow": 1
+                },
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 310.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 330, "sy": 100, "anchor": "Center", "x": 799.0, "y": 318.0,
+            "layout": {"padding": 0, "ltype": 1, "dirx": 0, "resize": 1, "ox": 0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 20.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 250, "sy": 40, "anchor": "Center", "x": 165.0, "y": 50.0,
+                    "color": [0, 0, 0],
+                    "font": 6, "size": 40, "text": "Overflow1 Overflow1", "overflow": 1
+                },
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 310.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 330, "sy": 100, "anchor": "Center", "x": 236.0, "y": 257.0,
+            "layout": {"padding": 0, "ltype": 1, "dirx": 0, "resize": 1, "ox": 0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 20.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 250, "sy": 40, "anchor": "Center", "x": 165.0, "y": 50.0,
+                    "color": [0, 0, 0],
+                    "font": 6, "size": 40, "text": "Overflow2", "overflow": 2
+                },
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 310.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 330, "sy": 100, "anchor": "Center", "x": 796.0, "y": 260.0,
+            "layout": {"padding": 0, "ltype": 1, "dirx": 0, "resize": 1, "ox": 0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 20.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 250, "sy": 40, "anchor": "Center", "x": 165.0, "y": 50.0,
+                    "color": [0, 0, 0],
+                    "font": 6, "size": 40, "text": "Overflow2 Overflow2", "overflow": 2
+                },
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 310.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 330, "sy": 100, "anchor": "Center", "x": 234.0, "y": 190.0,
+            "layout": {"padding": 0, "ltype": 1, "dirx": 0, "resize": 1, "ox": 0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 20.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 250, "sy": 40, "anchor": "Center", "x": 165.0, "y": 50.0,
+                    "color": [0, 0, 0],
+                    "font": 6, "size": 40, "text": "Overflow3", "overflow": 3
+                },
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 310.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "node", "sx": 330, "sy": 100, "anchor": "Center", "x": 792.0, "y": 198.0,
+            "layout": {"padding": 0, "ltype": 1, "dirx": 0, "resize": 1, "ox": 0},
+            "views":
+            [
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 20.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                },
+                {
+                    "createrConfig": true, "type": "label", "sx": 250, "sy": 80, "anchor": "Center", "x": 165.0, "y": 50.0,
+                    "color": [0, 0, 0],
+                    "font": 6, "size": 40, "text": "Overflow3 Overflow3", "overflow": 3
+                },
+                {
+                    "createrConfig": true, "type": "image", "sx": 40, "sy": 40, "anchor": "Center", "x": 310.0, "y": 50.0,
+                    "image": "images/sprites/cm_icon_cash.png"
+                }
+            ]
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 222.25, "sy": 40, "anchor": "Center", "x": 271.0, "y": 115.0,
+            "color": [0, 0, 0],
+            "font": 6, "size": 40, "text": "非描边文字1"
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 192.25, "sy": 40, "anchor": "Center", "x": 550.0, "y": 115.0,
+            "color": [0, 0, 0],
+            "font": 5, "size": 40, "text": "描边文字1", "outlineColor": [255, 0, 0, 255]
+        },
+        {
+            "createrConfig": true, "type": "label", "sx": 186.25, "sy": 40, "anchor": "Center", "x": 808.0, "y": 112.0,
+            "font": 5, "size": 40, "text": "描边文字2"
+        }
+    ]
+}
